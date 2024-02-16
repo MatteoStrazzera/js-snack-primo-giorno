@@ -29,7 +29,7 @@ Esercizio 2/B
 
 Prova ad assegnare alla costante chiamata PI il valore di 3.1416. Sai dire cosa succede?
 
-*/ 
+*/
 
 // const PI = 3.1416; // number
 
@@ -77,3 +77,20 @@ console.log(name);
 name = "Marco"; // string
 
 console.log(name);
+
+// Extra exercise
+
+/* 
+
+Esercizio 4
+
+Dichiara una variabile chiamata temperature e assegnale il valore 22.5. 
+Successivamente, aumenta il suo valore di 5 e stampa il nuovo valore in console.
+
+*/
+
+let temperature = 22.5; // number
+
+temperature = 22.5 + 5; // number
+
+console.log(temperature);
