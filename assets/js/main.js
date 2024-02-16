@@ -19,9 +19,9 @@ Stampa il valore della costante in console.
 
 */
 
-// const PI = 3.14; // number
+const PI = 3.14; // number
 
-// console.log(PI);
+console.log(PI);
 
 /*
 
@@ -31,9 +31,9 @@ Prova ad assegnare alla costante chiamata PI il valore di 3.1416. Sai dire cosa 
 
 */ 
 
-const PI = 3.1416; // number
+// const PI = 3.1416; // number
 
-console.log(PI);
+// console.log(PI);
 
 /* 
 Uncaught SyntaxError: Identifier 'PI' has already been declared
@@ -42,3 +42,19 @@ you can't change the value of const.
 you can change the value only with the variable let
 
 */
+
+/* 
+
+Esercizio 2/C
+
+Dichiara una variabile chiamata radius e assegnale il valore 8.
+Moltiplica radius x 2 e x PI e assegna il valore a una variabile di nome circle.
+Stampa il valore della variabile circle in console.
+
+*/
+
+const radius = 8; // number
+
+const circle = radius * 2 * PI; // number
+
+console.log(circle);
