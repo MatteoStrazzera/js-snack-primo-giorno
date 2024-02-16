@@ -19,6 +19,26 @@ Stampa il valore della costante in console.
 
 */
 
-const PI = 3.14; // number
+// const PI = 3.14; // number
+
+// console.log(PI);
+
+/*
+
+Esercizio 2/B
+
+Prova ad assegnare alla costante chiamata PI il valore di 3.1416. Sai dire cosa succede?
+
+*/ 
+
+const PI = 3.1416; // number
 
 console.log(PI);
+
+/* 
+Uncaught SyntaxError: Identifier 'PI' has already been declared
+
+you can't change the value of const.
+you can change the value only with the variable let
+
+*/
